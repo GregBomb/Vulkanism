@@ -2,13 +2,13 @@
 Just a smol Project mostly as a Joke.
 
 ## These sides are currently online:
-# <a href="https://gregbomb.github.io/Vulkanism/hakam.html">Hakam</a>
+### <a href="https://gregbomb.github.io/Vulkanism/hakam.html">Hakam</a>
 Just a general description of the culture.
-# <a href="https://gregbomb.github.io/Vulkanism/woerterbuch.html">Das Wörterbuch</a>
+### <a href="https://gregbomb.github.io/Vulkanism/woerterbuch.html">Das Wörterbuch</a>
 Some words that are "special" to our culture.
-# <a href="https://gregbomb.github.io/Vulkanism/vulkanism.html">Der Vulkanismus</a>
+### <a href="https://gregbomb.github.io/Vulkanism/vulkanism.html">Der Vulkanismus</a>
 A general description of our State religion.
-# <a href="https://gregbomb.github.io/Vulkanism/bible.html">Das Manuskript</a>
+### <a href="https://gregbomb.github.io/Vulkanism/bible.html">Das Manuskript</a>
 More single storys underlining our religion.
 
 ## Contributers:

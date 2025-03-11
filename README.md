@@ -7,5 +7,10 @@ Just a smol Project mostly as a Joke.
 <a href="https://gregbomb.github.io/Vulkanism/vulkanism.html">Der Vulkanismus</a>\
 <a href="https://gregbomb.github.io/Vulkanism/bible.html">Das Manuskript</a>
 
-### Disclaimer:
+## Contributers:
+gregbomb\
+Nobbe\
+DasBeta
+
+# Disclaimer:
 I do not own any of the background pictures included.

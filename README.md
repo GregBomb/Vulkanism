@@ -18,3 +18,4 @@ DasBeta
 
 # Disclaimer:
 I do not own any of the background pictures included.
+(they will be removed as soon as i get the final backgrounds)

@@ -11,6 +11,8 @@ A general description of our State religion.
 ### <a href="https://gregbomb.github.io/Vulkanism/bible.html">Manuskript</a>
 More single storys underlining our religion.
 
+## The Github repo
+# <a href="https://github.com/GregBomb/Vulkanism">github.com/GregBomb/Vulkanism</a>
 ## Contributers:
 GregBomb\
 Nobbe\

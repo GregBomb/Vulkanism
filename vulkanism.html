@@ -4,7 +4,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Church of Vulcano</title>
-<link rel="icon" type="image/x-icon" href="CoV.png">
+<link rel="icon" type="image/x-icon" href="img/CoV.png">
 <style>
 .dropbtn {
   background-color: #346541;
@@ -32,9 +32,10 @@
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 0.5vw 1vw;
   text-decoration: none;
   display: block;
+  line-height: 2;
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
@@ -44,7 +45,7 @@
 .dropdown:hover .dropbtn {background-color: #20883c;}
 
 Body, .top-container{
-  background-image: url(magma_bg.jpg);
+  background-image: url(img/magma_bg.jpg);
 }
 
 body {
@@ -92,12 +93,12 @@ h2 {text-align: center;}
   position: fixed;
   top: 0;
   width: 100%;
-  height: 100px; /* Match header height */
+  height: 100px;
   z-index: 1000;
 }
 
 .sticky + .content {
-  padding-top: 100px; /* Match header height */
+  padding-top: 100px;
 }
 
 .content {
@@ -110,7 +111,7 @@ h2 {text-align: center;}
 <body>
 
 <div class="top-container">
-    <img src="CoV.png" alt="Logo" height="150">
+    <img src="img/CoV.png" alt="Logo" height="150">
 </div>
 
 <div class="header" id="myHeader">
@@ -119,7 +120,7 @@ h2 {text-align: center;}
     <div class="dropdown-content">
       <a href="hakam.html">Hakam</a>
       <a href="woerterbuch.html">Wörterbuch</a>
-      <a href="#">Vulkanismus</a>
+      <a href="">Vulkanismus</a>
       <a href="bible.html">Manuskript</a>
     </div>
   </div>

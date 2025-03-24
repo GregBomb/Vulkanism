@@ -97,10 +97,6 @@ h2 {text-align: center;}
   z-index: 1000;
 }
 
-.sticky + .content {
-  padding-top: 100px;
-}
-
 .content {
   color: #eefcede4;
   padding: 16px;
@@ -148,16 +144,19 @@ h2 {text-align: center;}
 </div>
 
 <script>
-window.onscroll = function() { scrollfunction() };
+window.onscroll = function() { scrollFunction() };
 
 var header = document.getElementById("myHeader");
 var sticky = header.offsetTop;
+var body = document.body;
 
-function scrollfunction() {
+function scrollFunction() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
+    body.style.paddingTop = "100px";
   } else {
     header.classList.remove("sticky");
+    body.style.paddingTop = "0";
   }
 }
 </script>

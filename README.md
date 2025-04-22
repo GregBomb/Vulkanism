@@ -14,7 +14,8 @@ More single storys underlining our religion.
 ### <a href="https://github.com/GregBomb/Vulkanism">The Github repo</a>
 Just the repo of the site.
 
-## Contributers:
+## Contributors:
 GregBomb\
 Nobbe\
-DasBeta
+DasBeta\
+Yiff Conniseur and Futa enjoyer khazhul

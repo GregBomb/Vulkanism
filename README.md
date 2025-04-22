@@ -15,7 +15,7 @@ More single storys underlining our religion.
 Just the repo of the site.
 
 ## Contributors:
-Toaster GregBomb\
-drugged attack heli Nobbe\
+GregBomb the Toaster\
+Nobbe the drugged attack heli\
 DasBeta\
 Yiff Conniseur and Futa enjoyer khazhul

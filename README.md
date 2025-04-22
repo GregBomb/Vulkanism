@@ -1,7 +1,7 @@
 # Vulkanism
 Just a smol Project mostly as a Joke.
 
-## These sides are currently online:
+## These sites are currently online:
 ### <a href="https://www.vulkanism.org/hakam.html">Hakam</a>
 Just a general description of the culture.
 ### <a href="https://www.vulkanism.org/woerterbuch.html">Wörterbuch</a>
@@ -15,7 +15,7 @@ More single storys underlining our religion.
 Just the repo of the site.
 
 ## Contributors:
-GregBomb\
-Nobbe\
+Toaster GregBomb\
+drugged attack heli Nobbe\
 DasBeta\
 Yiff Conniseur and Futa enjoyer khazhul

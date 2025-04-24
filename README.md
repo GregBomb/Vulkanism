@@ -2,8 +2,8 @@
 Just a smol Project mostly as a Joke.
 
 ## These sites are currently online:
-### <a href="https://www.vulkanism.org">index</a>
-not much to say about this, just the landing page.
+### <a href="https://www.vulkanism.org">Index</a>
+Not much to say about this, just the landing page.
 ### <a href="https://www.vulkanism.org/hakam.html">Hakam</a>
 Just a general description of the culture.
 ### <a href="https://www.vulkanism.org/woerterbuch.html">Wörterbuch</a>

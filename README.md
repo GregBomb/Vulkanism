@@ -2,6 +2,8 @@
 Just a smol Project mostly as a Joke.
 
 ## These sites are currently online:
+### <a href="https://www.vulkanism.org">index</a>
+not much to say about this, just the landing page.
 ### <a href="https://www.vulkanism.org/hakam.html">Hakam</a>
 Just a general description of the culture.
 ### <a href="https://www.vulkanism.org/woerterbuch.html">Wörterbuch</a>
@@ -10,9 +12,6 @@ Some words that are "special" to our culture.
 A general description of our State religion.
 ### <a href="https://www.vulkanism.org/bible.html">Manuskript</a>
 More single stories underlining our religion.
-
-### <a href="https://github.com/GregBomb/Vulkanism">The Github repo</a>
-Just the repo of the site.
 
 ## Contributors:
 GregBomb the Toaster\

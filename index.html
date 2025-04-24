@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Hakam / Vulkanism</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-image: linear-gradient(to bottom right, red, rgb(255, 238, 0));
+      height: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    .header h1 {
+      margin: 0 auto;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .header img {
+      height: 150px;
+    }
+
+    .contributors-title {
+      margin-top: 90px;
+      text-align: center;
+    }
+
+    .link-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      text-align: center;
+      margin-top: 80px;
+    }
+
+    .link-container a.link-box {
+      display: block;
+      flex: 1 1 calc(50% - 40px);
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      min-width: 250px;
+      max-width: 500px;
+      text-decoration: none;
+      color: #333;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .link-container a.link-box:hover {
+      background-color: #e0e0e0;
+      cursor: pointer;
+      transform: translateY(-3px);
+    }
+
+    .link-box h3,
+    .link-box p {
+      text-align: center;
+      margin: 0;
+    }
+
+    @media (max-width: 900px) {
+      .header {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .header img {
+        margin: 10px 0;
+      }
+
+      .link-container a.link-box {
+        flex: 1 1 100%;
+      }
+    }
+
+    .contributors-box {
+    background-color: #f9f9f9;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+
+    .contributors-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+    }
+
+    .contributors-box li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    }
+
+    .contributors-box li:last-child {
+    border-bottom: none;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="img/Hakam.png" alt="Logo Left">
+    <h1>Hakam and Vulkanism</h1>
+    <img src="img/CoV.png" alt="Logo Right">
+  </div>
+
+  <div class="link-container">
+    <a href="hakam.html" class="link-box">
+      <h3>Hakam</h3>
+      <p>Just a general description of the culture.</p>
+    </a>
+    <a href="vulkanism.html" class="link-box">
+      <h3>Vulkanismus</h3>
+      <p>A general description of our State religion.</p>
+    </a>
+    <a href="woerterbuch.html" class="link-box">
+      <h3>Wörterbuch</h3>
+      <p>Some words that are "special" to our culture.</p>
+    </a>
+    <a href="bible.html" class="link-box">
+      <h3>Manuskript</h3>
+      <p>More single stories underlining our religion.</p>
+    </a>
+  </div>
+
+  <h2 class="contributors-title">Contributors:</h2>
+  <div class="contributors-box">
+    <ul>
+      <li>GregBomb the Toaster</li>
+      <li>Nobbe the drugged attack heli</li>
+      <li>DasBeta</li>
+      <li>Yiff Conniseur and Futa enjoyer khazhul</li>
+    </ul>
+  </div>
+
+</body>
+</html>

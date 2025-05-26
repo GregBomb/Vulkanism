@@ -12,6 +12,8 @@ Some words that are "special" to our culture.
 A general description of our State religion.
 ### <a href="https://www.vulkanism.org/bible.html">Manuskript</a>
 More single stories underlining our religion.
+### <a href="https://www.vulkanism.org/date.html">Kalender</a>
+Der Kalender des Hakam.
 
 ## Contributors:
 GregBomb the Toaster\

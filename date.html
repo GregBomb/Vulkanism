@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kalender</title>
+<link rel="icon" type="image/x-icon" href="img/Hakam.png">
+<style>
+.dropbtn {
+  background-color: #921e07;
+  color: white;
+  padding: 16px;
+  font-size: clamp(7px, 4vw, 16px);
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  position:absolute;
+  left:2vw;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 0.5vw 1vw;
+  text-decoration: none;
+  display: block;
+  line-height: 2;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #b12407;}
+
+Body, .top-container{
+  background-image: url(img/wood_bg.jpg);
+}
+
+body {
+  margin: 0;
+  font-family: "Comic Neue", cursive;
+}
+
+html, body {
+  overscroll-behavior: none;
+}
+
+p, li, label{
+  text-shadow: 0.1vw 0.1vw #000000;
+  font-size: clamp(12px, 2vw, 25px);
+}
+
+button, .dropdown-content{
+  text-shadow: 0.02vw 0.02vw #000000;
+  font-family: "Noto Sans", cursive;
+}
+
+
+h2 {text-align: center;}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  background: #0d5e1d;
+  color: #f1f1f1;
+  padding: 0 20px;
+  box-sizing: border-box;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 45px;
+  white-space: nowrap;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+}
+
+.content {
+  color: #eefcede4;
+  padding: 16px;
+}
+
+h4 {
+  font-size: clamp(16px, 4vw, 32px)
+}
+
+h3{
+    font-size: clamp(16px, 3vw, 24px);
+}
+
+</style>
+</head>
+<body>
+
+<div class="top-container">
+  <a href="index.html"><img src="img/Hakam.png" alt="Logo" height="150"></a>
+</div>
+
+<div class="header" id="myHeader">
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-bars"></i> Menu</button>
+    <div class="dropdown-content">
+      <a href="hakam.html">Hakam</a>
+      <a href="woerterbuch.html">Wörterbuch</a>
+      <a href="vulkanism.html">Vulkanismus</a>
+      <a href="bible.html">Manuskript</a>
+      <a href="">Kalender</a>
+    </div>
+  </div>
+  <h2>Kalender</h2>
+</div>
+<h4 style="color: #ddd; padding-left: auto; padding-right: auto; text-align: center;">Work in Progress</h4>
+<div class="content">
+    <div id="vulkan-kalender-tool" style="max-width: 400px;">
+        <h3>Umrechnung zur Vulkanistischen Zeitrechnung:</h3>
+        <label for="vk-date">Datum auswählen:</label><br>
+        <input type="date" id="vk-date" style="padding: 5px; width: 120px; margin: 5px 0;">
+        <button onclick="vkConvert()" style="padding: 6px 12px;">Umrechnen</button>
+        <div id="vk-output" style="margin-top: 10px; font-weight: bold;"></div>
+    </div>
+    <h4>Wie es Funktioniert</h4>
+    <p>Der vulkanistische Kalender besteht aus vier gleich langen Monaten mit je 91 Tagen sowie einem besonderen Zusatztag – dem Vulkantag, der das Neujahr markiert. Die Monate heißen Sobek (18. August – 16. November), Piez (17. November – 15. Februar), Frinek (16. Februar – 17. Mai) und Arpol (18. Mai – 16. August) und orientieren sich grob an den Jahreszeiten. Der Vulkantag liegt am 17. August, ist kein Teil eines Monats oder einer Woche, dauert 30 statt 24 Stunden und gleicht auf elegante Weise das Schaltjahrproblem aus.</p>
+    <p>Um ein Datum aus dem gregorianischen Kalender in den vulkanistischen Kalender umzurechnen, bestimmt man zunächst den Tag im Jahr (zum Beispiel ist der 11. September der 254. Tag). Teilt man diesen Wert durch 91, zeigt der ganzzahlige Anteil an, in welchem der vier Monate man sich befindet – im Beispiel also der zweite Monat, Piez. Danach zieht man das Vielfache von 91 ab (254 - 2×91 = 72), was den Tag innerhalb des Monats ergibt – hier also der 72. Piez. Eine Ausnahme bildet nur der Vulkantag selbst – der 17. August im gregorianischen Kalender –, der als einziger Tag im Jahr nicht in die reguläre Monatszählung fällt. Wer an diesem Tag geboren ist, hat einen ganz besonderen Geburtstag. </p>
+</div>
+
+<script>
+    window.onscroll = function() { scrollFunction() };
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    var body = document.body;
+
+    function scrollFunction() {
+    if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+        body.style.paddingTop = "100px";
+    } else {
+        header.classList.remove("sticky");
+        body.style.paddingTop = "0";
+    }
+    }
+    function vkConvert() {
+    const input = document.getElementById("vk-date").value;
+    if (!input) return;
+
+    const date = new Date(input);
+    const year = date.getFullYear();
+
+    const startOfYear = new Date(year, 0, 0);
+    const diff = date - startOfYear;
+    const oneDay = 1000 * 60 * 60 * 24;
+    let T = Math.floor(diff / oneDay);
+
+    const isLeap = (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0));
+    if (!isLeap && T >= 60) T += 1;
+
+    const vulkanTagDayOfYear = 230;
+    let V = T - vulkanTagDayOfYear;
+    let vulkanJahr = year;
+
+    if (T === vulkanTagDayOfYear) {
+        document.getElementById("vk-output").innerHTML = `🔥 <strong>Vulkantag</strong> – Vulkanistisches Neujahr ${vulkanJahr}`;
+        return;
+    }
+    if (V < 0) {
+        V += 365;
+        vulkanJahr -= 1;
+    }
+
+    const monthIndex = Math.floor((V - 1) / 91);
+    const dayInMonth = ((V - 1) % 91) + 1;
+
+    const monthNames = ["Sobek", "Piez", "Frinek", "Arpol"];
+    const month = monthNames[monthIndex] || "Unbekannt";
+
+    document.getElementById("vk-output").innerHTML = `➡️ <strong>${dayInMonth}. ${month} ${vulkanJahr}</strong>`;
+    }
+</script>
+
+</body>
+</html>

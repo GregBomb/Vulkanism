@@ -18,5 +18,5 @@ Der Kalender des Hakam.
 ## Contributors:
 GregBomb the Toaster\
 Nobbe the drugged attack heli\
-DasBeta\
+DasBeta the bi capitalism hater\
 Yiff Conniseur and Futa enjoyer khazhul

@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vulkanism | Kalender</title>
+<title>Kalender</title>
 <link rel="icon" type="image/x-icon" href="img/Hakam.png">
 <style>
 .dropbtn {
@@ -181,10 +181,12 @@ function vkConvert() {
 
   const vulkanTagDayOfYear = 230;
   let V = T - vulkanTagDayOfYear;
-  let vulkanJahr = year;
+
+  let vulkanJahr = year - 1642;
 
   if (T === vulkanTagDayOfYear) {
-      document.getElementById("vk-output").innerHTML = `🔥 <strong>Vulkantag</strong> – Vulkanistisches Neujahr ${vulkanJahr}`;
+      document.getElementById("vk-output").innerHTML = 
+        `🔥 <strong>Vulkantag</strong> – Vulkanistisches Neujahr ${vulkanJahr}`;
       return;
   }
 
@@ -199,8 +201,10 @@ function vkConvert() {
   const monthNames = ["Sobek", "Piez", "Frinek", "Arpol"];
   const month = monthNames[monthIndex] || "Unbekannt";
 
-  document.getElementById("vk-output").innerHTML = `➡️ <strong>${dayInMonth}. ${month} ${vulkanJahr}</strong>`;
-  }
+  document.getElementById("vk-output").innerHTML = 
+    `➡️ <strong>${dayInMonth}. ${month} ${vulkanJahr}</strong>`;
+}
+
 </script>
 
 </body>

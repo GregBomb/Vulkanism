@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Hakam / Vulkanism</title>
+  <link rel="icon" type="image/x-icon" href="img/Hakam.png">
+  <style>
+    html, body {
+      overscroll-behavior: none;
+    }
+    body {
+      font-family: "Comic Neue", cursive;
+      margin: 20px;
+      background-color: black;
+      background-image: url(img/darklines-bg.jpg);
+      color: white;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    .header h1 {
+      margin: 0 auto;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .header img {
+      width: 200px;
+    }
+
+    .contributors-title {
+      margin-top: 100px;
+      text-align: center;
+    }
+
+    .link-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      text-align: center;
+      margin-top: 90px;
+      max-width: 1600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .link-container a.link-box {
+      display: block;
+      flex: 1 1 calc(50% - 40px);
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      min-width: 250px;
+      max-width: 500px;
+      text-decoration: none;
+      color: #333;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .link-container a.link-box:hover {
+      background-color: #e0e0e0;
+      cursor: pointer;
+      transform: translateY(-3px);
+    }
+
+    .link-box h3,
+    .link-box p {
+      text-align: center;
+      margin: 0;
+    }
+
+    @media (max-width: 900px) {
+      .header {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .header img {
+        margin: 10px 0;
+      }
+
+      .link-container a.link-box {
+        flex: 1 1 100%;
+      }
+    }
+
+    .contributors-box {
+    background-color: #f9f9f9;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+
+    .contributors-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+    }
+
+    .contributors-box li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    color: black;
+    }
+
+    .contributors-box li:last-child {
+    border-bottom: none;
+    }
+    a:link {
+      color: rgb(152, 245, 255);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: rgb(152, 245, 255);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="img/Hakam.png">
+    <h1>Hakam und der Vulkanismus</h1>
+    <img src="img/CoV.png">
+  </div>
+
+  <div class="link-container">
+    <a href="de-hakam.html" class="link-box">
+      <h3>Hakam</h3>
+      <p>Generelle Beschreibung unseres Staates</p>
+    </a>
+    <a href="de-vulkanism.html" class="link-box">
+      <h3>Vulkanismus</h3>
+      <p>Generelle Beschreibung unserer Religion</p>
+    </a>
+    <a href="de-woerterbuch.html" class="link-box">
+      <h3>Wörterbuch</h3>
+      <p>Eine Sammlung einiger "Spezieller" Wörter</p>
+    </a>
+    <a href="de-bible.html" class="link-box">
+      <h3>Manuskript</h3>
+      <p>Mehr Einzelne Berichte unserer Religion</p>
+    </a>
+    <a href="de-date.html" class="link-box">
+      <h3>Kalender</h3>
+      <p>Der Hakamsche Kalender.</p>
+    </a>
+  </div>
+
+  <h2 class="contributors-title">Mitwirkende:</h2>
+  <div class="contributors-box">
+    <ul>
+      <li><b>GregBomb</b> the Toaster</li>
+      <li><b>Nobbe</b> the drugged attack heli</li>
+      <li><b>DasBeta</b> the bi capitalism hater</li>
+      <li>Yiff Conniseur and Futa enjoyer <b>khazhul</b></li>
+    </ul>
+  </div>
+  <div style="text-align: center;">
+    <p>E-Mail support:</p>
+    <a href="mailto:vulkanism@cumallover.me">vulkanism@cumallover.me</a>
+  </div>
+</body>
+</html>

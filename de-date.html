@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kalender</title>
+  <link rel="icon" type="image/x-icon" href="img/Hakam.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="code.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="top-container">
+  <a href="de-index.html"><img src="img/Hakam.png" alt="Logo" height="150"></a>
+</div>
+
+<div class="header" id="myHeader">
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-bars"></i> Menü</button>
+    <div class="dropdown-content">
+      <a href="de-hakam.html">Hakam</a>
+      <a href="de-woerterbuch.html">Wörterbuch</a>
+      <a href="de-vulkanism.html">Vulkanismus</a>
+      <a href="de-bible.html">Manuskript</a>
+      <a href="">Kalender</a>
+    </div>
+  </div>
+  <h2>Kalender</h2>
+</div>
+<div class="content">
+  <div id="vulkan-kalender-tool" style="max-width: 400px;">
+    <h3>Umrechnung zur Vulkanistischen Zeitrechnung:</h3>
+    <label for="vk-date">Datum auswählen:</label><br>
+    <input type="date" id="vk-date" style="padding: 5px; width: 120px; margin: 5px 0;">
+    <button id="vk-button" style="padding: 6px 12px;">Umrechnen</button>
+    <div id="vk-output" style="margin-top: 10px; font-weight: bold;"></div>
+  </div>
+  <h4>Wie es funktioniert</h4>
+  <p>Der vulkanistische Kalender besteht aus vier gleich langen Monaten mit je 91 Tagen sowie einem besonderen Zusatztag – dem Vulkantag, der das Neujahr markiert. Die Monate heißen Sobek (18. August – 16. November), Piez (17. November – 15. Februar), Frinek (16. Februar – 17. Mai) und Arpol (18. Mai – 16. August) und orientieren sich grob an den Jahreszeiten. Der Vulkantag liegt am 17. August, ist kein Teil eines Monats oder einer Woche, dauert 30 statt 24 Stunden und gleicht auf elegante Weise das Schaltjahrproblem aus.</p>
+  <p>Das Startjahr des vulkanisischen Kalenders ist das Jahr 1642, dies ergibt sich da 1642 die ersten Nachkommastellen sind, wenn man die Zahl 69 (nice) durch 420 teilt. Da einige Ereignisse vor dieser Zeit stattgefunden haben, gibt es zwei geniale Lösungen. Entweder schreibt man vVZ. als Abkürzung (vor-Vulkanistische Zeit), oder man schreibt schlichtweg ein - vor die Jahreszahl.</p>
+  <p>Beispiel: 18. August 1500: 1. Sobek -142.</p>
+</div>
+</body>
+</html>

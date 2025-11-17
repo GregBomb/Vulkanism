@@ -1,0 +1,273 @@
+Body, .top-container{
+    background-color: #000000;
+    background-image: url(img/darklines-bg.jpg);
+}
+
+.dropbtn {
+  background-color: #89b6ce;
+  color: black;
+  padding: 16px;
+  font-size: clamp(7px, 4vw, 16px);
+  border: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  left: 2vw;
+}
+
+.dropdown2 {
+  position: absolute;
+  display: inline-block;
+  right: 2vw;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffffeb;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.074);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 0.5vw 1vw;
+  text-decoration: none;
+  display: block;
+  line-height: 2;
+}
+
+.dropdown-content a:hover {
+  background-color: #d8d8d8eb;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #0d39ff;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: "Comic Neue", cursive;
+}
+
+html, body {
+  overscroll-behavior: none;
+}
+
+p, li, label {
+  text-shadow: 1px 1px #000000;
+  font-size: clamp(12px, 4vw, 25px);
+}
+
+button, .dropdown-content {
+  text-shadow: 0.02vw 0.02vw #000000;
+  font-family: "Noto Sans", cursive;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: clamp(16px, 3vw, 24px);
+}
+
+h4 {
+  font-size: clamp(16px, 4vw, 32px);
+}
+
+.top-container {
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  background: #09610b;
+  color: #f1f1f1;
+  padding: 0 20px;
+  box-sizing: border-box;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 45px;
+  white-space: nowrap;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+}
+
+.content {
+  color: #eefcede4;
+  padding: 16px;
+}
+
+table, th, td {
+  border: 2px solid #5c5c5c;
+  border-collapse: collapse;
+  text-shadow: 0.1vw 0.1vw #000000;
+  font-size: clamp(12px, 4vw, 25px);
+}
+
+table {
+  width: clamp(0, 100%, 220px);
+}
+
+#Schöpfung, #placeholder {
+  scroll-margin-top: 100px;
+}
+
+#Jump {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  width: 20%;
+}
+
+#jto {
+  font-size: 2vw;
+  color: #25122e;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.inheader h1 {
+  margin: 0 auto;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.inheader img {
+  width: 200px;
+}
+
+.contributors-title {
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+.link-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 90px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-container a.link-box {
+  display: block;
+  flex: 1 1 calc(50% - 40px);
+  background-color: #0f5610;
+  padding: 3vw;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+  max-width: 500px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.link-container a.link-box:hover {
+  background-color: #09610b;
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+.link-box h1, .link-box p {
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .inheader {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inheader img {
+    margin: 10px 0;
+  }
+
+  .link-container a.link-box {
+    flex: 1 1 100%;
+  }
+}
+
+.contributors-box {
+background-color: #0f5610;
+padding: 20px 30px;
+border-radius: 12px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+max-width: 600px;
+margin: 0 auto;
+margin-top: 20px;
+}
+
+.contributors-box ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.contributors-box li {
+padding: 8px 0;
+border-bottom: 1px solid #999999;
+color: white;
+}
+
+.contributors-box li:last-child {
+border-bottom: none;
+}

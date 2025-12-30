@@ -10,7 +10,7 @@ function vkConvert() {
   const year = date.getUTCFullYear();
 
   const startOfYear = Date.UTC(year, 0, 1);
-  const dayOfYear = Math.floor((date - startOfYear) / 86400000) + 1;
+  const dayOfYear = Math.floor((date - startOfYear) / 86400000);
 
   const isLeap = (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0));
   const vulkanTagDOY = isLeap ? 230 : 229;
@@ -60,4 +60,5 @@ window.onload=function() {
 
 
 };
+
 

@@ -171,6 +171,8 @@ a:visited {
 
 
 
+
+
 .inheader {
   display: flex;
   justify-content: space-between;
@@ -273,7 +275,3 @@ color: white;
 .contributors-box li:last-child {
 border-bottom: none;
 }
-
-
-
-

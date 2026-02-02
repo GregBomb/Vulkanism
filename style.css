@@ -9,6 +9,7 @@ Body, .top-container{
   padding: 16px;
   font-size: clamp(7px, 4vw, 16px);
   border: none;
+  border-radius: 4px;
 }
 
 .dropdown {
@@ -271,5 +272,6 @@ color: white;
 .contributors-box li:last-child {
 border-bottom: none;
 }
+
 
 

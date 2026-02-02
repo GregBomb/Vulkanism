@@ -136,15 +136,15 @@ table {
 }
 
 #Jump {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(137, 182, 206, 0.2);
   padding: 10px;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid #89b6ce;
   width: 20%;
 }
 
 #jto {
-  font-size: 2vw;
-  color: #25122e;
+  font-size: clamp(12px, 4vw, 25px);
+  color: #f1f1f1;
 }
 
 a:link {
@@ -271,4 +271,5 @@ color: white;
 .contributors-box li:last-child {
 border-bottom: none;
 }
+
 

@@ -1,0 +1,25 @@
+Body {
+    background-color: #fdfdf4;
+    overscroll-behavior: none;
+}
+
+.Header {
+    text-align: center;
+}
+
+.Main {
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 1px;
+    padding: clamp(5px, 1vw, 1vw);
+    border: 2px solid #5c5c5c;
+}
+
+img {
+    height: 200px;
+}
+
+.images {
+    display: flexbox;
+    flex-wrap: wrap;
+}

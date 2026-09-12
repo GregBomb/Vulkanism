@@ -15,7 +15,7 @@ Body {
     border: 2px solid #5c5c5c;
 }
 
-img {
+img, video {
     height: 200px;
 }
 

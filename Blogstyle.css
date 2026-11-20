@@ -23,3 +23,7 @@ img, video {
     display: flexbox;
     flex-wrap: wrap;
 }
+
+.inactive {
+    color: #ffffff;
+} 

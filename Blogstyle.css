@@ -25,5 +25,6 @@ img, video {
 }
 
 .inactive {
-    color: #ffffff;
+    color: #B1B1AB;
+    border: 2px solid #B1B1AB;
 } 
